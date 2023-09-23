@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appods"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/simples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculosimples" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o primeiro valor" />
+
+    <EditText
+        android:id="@+id/edit_valor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o segundo valor" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o terceiro valor" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:inputType="number"
+        android:numeric="decimal"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btn_soma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/somar" />
+
+    <Button
+        android:id="@+id/btn_multiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicar" />
+
+    <Button
+        android:id="@+id/btn_diminuir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diminuir" />
+
+    <Button
+        android:id="@+id/btn_dividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dividir" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculo</string>
+    <string name ="somar">SOMAR</string>
+    <string name ="multiplicar">MULTTPLICAR</string>
+    <string name ="diminuir">DIMINUIR</string>
+    <string name ="dividir">DIVIDIR</string>
+</resources>
